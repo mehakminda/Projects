@@ -1,0 +1,6 @@
+create database if not exists `job_portal`
+
+use job_portal
+
+
+Hibernate: create table job_post (post_id integer not null, post_desc varchar(255), post_profile varchar(255), req_experience integer not null, tech_stack json, primary key (post_id)) engine=InnoDB
