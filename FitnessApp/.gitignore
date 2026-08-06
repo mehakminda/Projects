@@ -1,0 +1,86 @@
+# =========================
+# OS / IDE / Editor
+# =========================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+*.iml
+.vscode/
+**/.vscode/
+*.classpath
+*.project
+*.settings/
+
+# =========================
+# Java / Spring Boot
+# =========================
+target/
+*.class
+*.log
+logs/
+**/target/
+**/*.jar
+**/*.war
+**/*.ear
+
+# Maven / Gradle wrappers and caches
+.gradle/
+build/
+**/build/
+out/
+
+# Spring Boot / local config
+**/application-local.properties
+**/application-local.yml
+**/application-local.yaml
+**/application-dev.properties
+**/application-dev.yml
+**/application-dev.yaml
+**/application-test.properties
+**/application-test.yml
+**/application-test.yaml
+
+# Optional if you use Lombok / generated sources
+generated-sources/
+**/generated-sources/
+
+# =========================
+# React (Vite)
+# =========================
+ui/node_modules/
+**/node_modules/
+ui/dist/
+**/dist/
+ui/.vite/
+**/.vite/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# =========================
+# Python / misc (safe to include)
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Test / coverage / temporary
+# =========================
+coverage/
+*.tmp
+tmp/
+temp/
+
+# =========================
+# Secrets / local config backups
+# =========================
+*.secret
+*.secrets
+*.key
+*.pem
